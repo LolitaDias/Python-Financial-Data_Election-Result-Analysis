@@ -18,7 +18,7 @@ with open(csvpath, newline="",errors='ignore') as csvfile:
     month_count=[]
     var1=next(csvreader)
     tamount=int(var1[1]) #variable to count total amount of "Profit/Losses"(set the initital value to the value in Row1)
-    p_row_value = int(var1[1])
+    var2 = int(var1[1]) #variable to store the value at row 1 to calculate revenue change -for the first iteration
     temp_increase=0 #temporary variable to store greatest increase in between iterations
     temp_decrease=0 #temporary variable to store greatest decrease in between iterations
     for row in csvreader:
@@ -30,9 +30,9 @@ with open(csvpath, newline="",errors='ignore') as csvfile:
         tamount=tamount+int(row[1])
 
         #The average of the changes in "Profit/Losses" over the entire period 
-        revenue_change = int(row[1]) - p_row_value
+        revenue_change = int(row[1]) - var2
         average_change.append(revenue_change)
-        p_row_value = int(row[1])
+        var2 = int(row[1])
         month_count.append(row[0]) 
         avg_change = sum(average_change)/ len(average_change)
         
