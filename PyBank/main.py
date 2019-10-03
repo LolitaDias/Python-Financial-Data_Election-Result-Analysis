@@ -22,8 +22,8 @@ with open(csvpath, newline="",errors='ignore') as csvfile:
     lavg_change=[] # list to store average
     temp_increase=0 #temporary variable to store greatest increase in between iterations
     temp_decrease=0 #temporary variable to store greatest decrease in between iterations
-    vrow=next(csvreader) # increment to the line 2 of csv file, to ignore the header
-    vtemp = int(vrow[1])
+    vrow=next(csvreader) # Read the line 2 of csv file
+    vtemp = int(vrow[1]) 
     vamount=int(vrow[1])
   
     for row in csvreader:
@@ -41,7 +41,7 @@ with open(csvpath, newline="",errors='ignore') as csvfile:
 
             #The average of the changes in "Profit/Losses" over the entire period 
             tavg_change = int(row[1]) - vtemp
-            lavg_change.append(tavg_change)
+            lavg_change.append(tavg_change) # Storing the result in the list
             vtemp= int(row[1])
             avg_change = sum(lavg_change)/ len(lavg_change)
 
