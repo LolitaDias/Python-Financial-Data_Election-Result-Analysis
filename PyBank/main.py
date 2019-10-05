@@ -5,7 +5,8 @@ import os
 import csv
 
 #Define the path of the csv file
-csvpath =os.path.join("..","/Users/lolitadias/desktop/Python-challenge/PyBank","PyBank_Resources_budget_data.csv")
+csvpath = os.path.join('..', 'PyBank','Resources', 'budget_data.csv')
+#csvpath =os.path.join("..","/Users/lolitadias/desktop/Python-challenge/PyBank","PyBank_Resources_budget_data.csv")
 #Open csv file
 with open(csvpath, newline="",errors='ignore') as csvfile:
 
@@ -32,20 +33,20 @@ with open(csvpath, newline="",errors='ignore') as csvfile:
             lmonths.append(row[0])
             lamount.append(row[1])
      
-            #The net total amount of "Profit/Losses" over the entire period --Correct code
+            #The net total amount of "Profit/Losses" over the entire period
             vamount= vamount + int(row[1]) 
             
-            #The total number of months included in the dataset -Correct code
+            #The total number of months included in the dataset
             vmonths=len(lmonths) +1
 
-            #The average of the changes in "Profit/Losses" over the entire period  --correct code
+            #The average of the changes in "Profit/Losses" over the entire period
             #First find the changes in consecutive rows ( subtract next value from previous values and store the result in a new list(lavg_change))
             tavg_change = int(row[1]) - vtemp
-            lavg_change.append(tavg_change) # Storing the result in the list --correct code
+            lavg_change.append(tavg_change) # Storing the result in the list
             vtemp= int(row[1])
             avg_change = sum(lavg_change)/ len(lavg_change)
 
-            #The greatest increase in profits (date and amount) over the entire period --correct code
+            #The greatest increase in profits (date and amount) over the entire period
             if int(row[1]) > temp_increase:
                     temp_increase=int(row[1])
                     temp_imonth=row[0]

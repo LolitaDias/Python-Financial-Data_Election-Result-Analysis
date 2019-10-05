@@ -5,7 +5,8 @@ import os
 import csv
 
 #Define the path of the csv file
-csvpath =os.path.join("..","/Users/lolitadias/Desktop/PyPoll/PyPoll_Resources_election_data.csv")
+csvpath=os.path.join('..','PyPoll','Resources','election_data.csv')
+#csvpath =os.path.join("..","/Users/lolitadias/Desktop/PyPoll/election_data.csv")
 #Open csv file
 with open(csvpath, newline="",errors='ignore') as csvfile:
     #CSV file specifies the delimeter and variable that holds contents
