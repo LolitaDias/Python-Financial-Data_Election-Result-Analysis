@@ -2,8 +2,7 @@
 
 ## Background
 
-In this assignment, we will be using Python concepts 
-Both of these challenges(PyBank and PyPoll) encompasses a real-world situation where our Python scripting skills can come in handy. 
+In this assignment, we have used Python concepts to analyze the Financial Budget Data and Polling Data. 
 
 Datasets:
 
