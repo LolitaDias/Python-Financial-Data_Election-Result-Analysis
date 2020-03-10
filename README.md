@@ -11,7 +11,7 @@ Financial data: [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset
 
 Tasks:
 
-Create a Python script that analyzes the records to calculate each of the following:
+Created a Python script that analyzes the records to calculate each of the following:
 
   1. The total number of months included in the dataset
 
@@ -44,15 +44,19 @@ Datasets:
 
 Poll data: [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. 
 
-  * The total number of votes cast
+Tasks:
 
-  * A complete list of candidates who received votes
+Created a Python script that analyzes the records to calculate each of the following:
 
-  * The percentage of votes each candidate won
+  1. The total number of votes cast
 
-  * The total number of votes each candidate won
+  2. A complete list of candidates who received votes
 
-  * The winner of the election based on popular vote.
+  3. The percentage of votes each candidate won
+
+  4. The total number of votes each candidate won
+
+  5. The winner of the election based on popular vote.
 
 * As an example, your analysis should look similar to the one below:
 
