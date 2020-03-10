@@ -1,4 +1,4 @@
-# Python Homework - Py Me Up, Charlie
+# Python Homework - Financial Data Analysis
 
 ## Background
 
@@ -34,9 +34,8 @@ Result:
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
 
 
-## PyPoll
+# Python Homework - Election Results Analysis
 
-![Vote-Counting](Images/Vote_counting.png)
 
 * In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
