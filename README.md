@@ -11,7 +11,7 @@ Both of these challenges(PyBank and PyPoll) encompasses a real-world situation w
 
 
 
-4. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
+
 
 5. Push the above changes to GitHub or GitLab.
 
