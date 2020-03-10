@@ -72,7 +72,6 @@ Result:
   Winner: Khan
   -------------------------
 
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## Hints and Considerations
 
