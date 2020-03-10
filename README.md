@@ -60,7 +60,6 @@ Created a Python script that analyzes the records to calculate each of the follo
 
 Result:
 
-  ```text
   Election Results
   -------------------------
   Total Votes: 3521001
