@@ -2,8 +2,8 @@
 
 ## Background
 
-It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete **2** Python Challenges, PyBank and PyPoll.
-Both of these challenges encompasses a real-world situation where your newfound Python scripting skills can come in handy. These challenges are far from easy so expect some hard work ahead!
+In this assignment, we will be using Python concepts 
+Both of these challenges(PyBank and PyPoll) encompasses a real-world situation where our Python scripting skills can come in handy. 
 
 ### Before You Begin
 
