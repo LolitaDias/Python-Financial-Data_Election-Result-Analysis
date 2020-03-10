@@ -13,8 +13,6 @@ Both of these challenges(PyBank and PyPoll) encompasses a real-world situation w
 
 
 
-5. Push the above changes to GitHub or GitLab.
-
 ## PyBank
 
 ![Revenue](Images/revenue-per-lead.png)
