@@ -5,7 +5,6 @@
 In this assignment, we will be using Python concepts 
 Both of these challenges(PyBank and PyPoll) encompasses a real-world situation where our Python scripting skills can come in handy. 
 
-### Before You Begin
 
 1. Create a new repository for this project called `python-challenge`. **Do not add this homework to an existing repository**.
 
