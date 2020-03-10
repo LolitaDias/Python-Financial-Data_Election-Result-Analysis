@@ -24,6 +24,7 @@ Created a Python script that analyzes the records to calculate each of the follo
 
 Result:
 
+  ```text
   Financial Analysis
   ----------------------------
   Total Months: 86
@@ -31,8 +32,8 @@ Result:
   Average  Change: $-2315.12
   Greatest Increase in Profits: Feb-2012 ($1926159)
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
-
-
+  ```
+  
 # Python Homework - Election Results Analysis
 
 ## Background
