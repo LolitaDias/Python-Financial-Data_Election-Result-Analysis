@@ -4,7 +4,7 @@
 
 In this assignment, we have used Python concepts to analyze the Financial Budget Data and Polling Data. 
 
-Datasets:
+Dataset:
 
 Financial data: [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. 
 
