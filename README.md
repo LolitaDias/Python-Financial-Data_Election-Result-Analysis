@@ -15,7 +15,6 @@ Datasets:
 
 
 
-
 Financial data: [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. 
 
 * Your task is to create a Python script that analyzes the records to calculate each of the following:
