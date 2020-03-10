@@ -13,7 +13,7 @@ Both of these challenges(PyBank and PyPoll) encompasses a real-world situation w
 
 
 
-## PyBank
+
 
 ![Revenue](Images/revenue-per-lead.png)
 
