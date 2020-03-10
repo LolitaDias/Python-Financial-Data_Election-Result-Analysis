@@ -7,7 +7,7 @@ Both of these challenges(PyBank and PyPoll) encompasses a real-world situation w
 
 
 
-2. Clone the new repository to your computer.
+
 
 3. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
 
