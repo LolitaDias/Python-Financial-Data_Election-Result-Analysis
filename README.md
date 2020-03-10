@@ -33,7 +33,7 @@ Result:
   Greatest Increase in Profits: Feb-2012 ($1926159)
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
-  
+
 # Python Homework - Election Results Analysis
 
 ## Background
@@ -60,6 +60,7 @@ Created a Python script that analyzes the records to calculate each of the follo
 
 Result:
 
+  ```text
   Election Results
   -------------------------
   Total Votes: 3521001
@@ -71,3 +72,4 @@ Result:
   -------------------------
   Winner: Khan
   -------------------------
+  ```
