@@ -36,8 +36,9 @@ Result:
 
 # Python Homework - Election Results Analysis
 
+## Background
 
-* In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
+In this assignment, we are tasked with helping a small, rural town modernize its vote-counting process. 
 
 * You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
