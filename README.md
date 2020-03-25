@@ -2,7 +2,7 @@
 
 ## Background
 
-In this assignment, we have used Python concepts to analyze the Financial Budget Data and Polling Data. 
+In this project,  Python concepts have been used to analyze the Financial Budget Data and Polling Data. 
 
 Dataset:
 
